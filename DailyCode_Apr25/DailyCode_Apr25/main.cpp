@@ -12,7 +12,6 @@ int main() {
 	cout << "What is your favorite number? 1 - 12" << endl;
 		cin >> input;
 
-	Horoscope(input);
 	if (Horoscope(input) == 1) {
 		cout << "Good day to you sir." << endl;
 	}
